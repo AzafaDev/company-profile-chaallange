@@ -47,7 +47,7 @@ export const TeamCard = ({ member, idx }: TeamCardProps) => {
       <div className="space-y-2">
         <p className="font-bold text-lg text-[var(--text-primary)]">
           {memberName}
-        </h4>
+        </p>
         <p className="text-[9px] font-black uppercase tracking-widest text-[var(--jiwa-red)]">
           {memberRole}
         </p>
