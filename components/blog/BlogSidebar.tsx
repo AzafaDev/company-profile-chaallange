@@ -39,7 +39,7 @@ export const BlogSidebar = ({
 
         {/* --- CATEGORIES CARD --- */}
         <div className="p-8 rounded-[2.5rem] border border-[var(--text-primary)]/10 bg-[var(--bg-primary)] shadow-sm">
-          <h4 className="font-black uppercase text-[10px] tracking-[0.3em] mb-8 text-[var(--jiwa-red)] border-b border-[var(--text-primary)]/5 pb-4">
+          <p className="font-black uppercase text-[10px] tracking-[0.3em] mb-8 text-[var(--jiwa-red)] border-b border-[var(--text-primary)]/5 pb-4">
             Filter by Topic
           </h4>
 

@@ -69,9 +69,9 @@ const Footer = () => {
 
           {/* --- Navigation Column --- */}
           <div className="md:col-span-3">
-            <h4 className="text-[11px] font-black uppercase tracking-[0.3em] mb-8 text-[var(--jiwa-red)]">
+            <p className="text-[11px] font-black uppercase tracking-[0.3em] mb-8 text-[var(--jiwa-red)]">
               Explore
-            </h4>
+            </p>
             <ul className="flex flex-col gap-5">
               {EXPLORE_LINKS.map((link) => (
                 <li key={link.name}>
@@ -93,9 +93,9 @@ const Footer = () => {
 
           {/* --- Contact Column --- */}
           <div className="md:col-span-4">
-            <h4 className="text-[11px] font-black uppercase tracking-[0.3em] mb-8 text-[var(--jiwa-red)]">
+            <p className="text-[11px] font-black uppercase tracking-[0.3em] mb-8 text-[var(--jiwa-red)]">
               Get in Touch
-            </h4>
+            </p>
             <div className="space-y-6">
               <ContactItem
                 icon={<MapPin size={20} />}
@@ -115,7 +115,7 @@ const Footer = () => {
 
         {/* --- Bottom Bar --- */}
         <div className="pt-10 border-t border-[var(--text-primary)]/10 flex flex-col md:flex-row justify-between items-center gap-6">
-          <p className="text-[10px] font-black tracking-[0.2em] text-[var(--text-primary)]/40 uppercase text-center md:text-left">
+          <p className="text-[10px] font-black tracking-[0.2em] text-[var(--text-primary)]/80 uppercase text-center md:text-left">
             © 2026 PT. JIWA GROUP. ALL RIGHTS RESERVED.
           </p>
           <div className="flex flex-wrap justify-center gap-8">

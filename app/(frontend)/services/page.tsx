@@ -144,9 +144,9 @@ const ServicesPage = () => {
                 <div className="w-16 h-16 rounded-2xl flex items-center justify-center mb-8 bg-[var(--bg-primary)] text-[var(--jiwa-red)] shadow-sm">
                   {feature.icon}
                 </div>
-                <h4 className="font-black uppercase text-[14px] tracking-[0.2em] mb-4">
+                <p className="font-black uppercase text-[14px] tracking-[0.2em] mb-4">
                   {feature.title}
-                </h4>
+                </p>
                 <p className="text-sm leading-relaxed opacity-60">
                   {feature.desc}
                 </p>
