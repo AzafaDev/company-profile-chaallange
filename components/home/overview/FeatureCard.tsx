@@ -34,7 +34,7 @@ export const FeatureCard = ({
     {/* Title */}
     <p className="font-black text-[11px] uppercase tracking-[0.2em] mb-3 text-[var(--text-primary)] italic">
       {title}
-    </h4>
+    </p>
 
     {/* Description */}
     <p className="text-sm leading-relaxed text-[var(--text-primary)] opacity-60 font-medium group-hover:opacity-80 transition-opacity">
